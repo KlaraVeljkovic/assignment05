@@ -45,12 +45,13 @@ public class GumballMachine {
 		state = state.refill();
 	}
 
-	// Additional methods for quarter tracking
-	public int getQuarterCount() {
+	// Quarter tracking
+	public int getQuarterCount() 
+	{
 		return quarterCount;
 	}
-
-	public void setQuarterCount(int quarterCount) {
+	public void setQuarterCount(int quarterCount) 
+	{
 		this.quarterCount = quarterCount;
 	}
 
